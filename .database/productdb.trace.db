@@ -1,0 +1,6 @@
+2023-08-19 19:49:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM tb_product WHERE ID = 65"; expected "identifier"; SQL statement:
+DELETE * FROM tb_product WHERE ID = 65 [42001-214]
+2023-08-19 19:50:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM tb_product WHERE id = 65"; expected "identifier"; SQL statement:
+DELETE * FROM tb_product WHERE id = 65 [42001-214]
